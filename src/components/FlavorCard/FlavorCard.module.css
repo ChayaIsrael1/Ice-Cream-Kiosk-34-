@@ -1,0 +1,13 @@
+.FlavorCards {
+    border: 1px solid black;
+    padding: 10px;
+    word-spacing: normal;
+}
+
+.FlavorCard.is-sold-out {
+    opacity: 0.6;
+    filter: grayscale(60%);
+    pointer-events: none;
+    user-select: none;
+}
+
